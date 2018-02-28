@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\participant;
 use Illuminate\Http\Request;
+use App\participant;
 
 class ParticipantController extends Controller
 {
@@ -35,7 +35,8 @@ class ParticipantController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        participant::create($request->all());
+        return response('çreated',201);
     }
 
     /**
