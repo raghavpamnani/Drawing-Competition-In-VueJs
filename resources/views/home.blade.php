@@ -10,7 +10,11 @@
 <body>
     
     <div id="app">
-       <example-component></example-component>    
+     <v-app>
+        <toolbar></toolbar>
+       <login></login>  
+       <myfooter></myfooter>
+     </v-app>
     </div>
     <script src="{{asset('js/app.js')}}"></script>
 </body>

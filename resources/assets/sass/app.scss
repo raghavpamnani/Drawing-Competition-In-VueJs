@@ -1,9 +1,13 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
-@import "variables";
+// @import "variables";
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import '~vuetify/dist/vuetify.min.css'; // Ensure you are using css-loader
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons");
+
+body{
+    font-family : Roboto;
+}
