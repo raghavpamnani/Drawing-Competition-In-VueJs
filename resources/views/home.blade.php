@@ -12,7 +12,7 @@
     <div id="app">
      <v-app>
         <toolbar></toolbar>
-       <login></login>  
+        <login></login>
        <myfooter></myfooter>
      </v-app>
     </div>
